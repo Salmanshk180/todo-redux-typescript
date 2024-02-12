@@ -5,12 +5,14 @@ import { RootState } from "./store/store";
 import { todosActions } from "./store/todosSlice";
 const Todos: FC = () => {
   interface Todo {
-    id: number;
+    id: string;
     title: string;
   }
   const todos = useSelector((state: RootState) => state.todo.items);
+  console.log(todos);
+  
   const dispatch = useDispatch();
-  const deleteHandler = (id: number) => {
+  const deleteHandler = (id: string) => {
     dispatch(todosActions.removeTodo(id));
   };
   return (
