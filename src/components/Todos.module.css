@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 50px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.card {
+  background-color: white;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  margin-block: 10px;
+}
+.card p{
+    font-size: 18px;
+}
+.card button {
+  padding: 0 20px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 12px;
+}

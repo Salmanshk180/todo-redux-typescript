@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-block: 50px;
+}
+.input_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.input_form input{
+    font-size: 18px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+   
+} 
+
+.input_form button{
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+}
